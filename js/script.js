@@ -155,19 +155,48 @@
 // Quando sono scritte tutte in maiuscolo stampa un alert,
 // altrimenti inseriscile nell'array.
 
-let listaParole = [];
-let input;
+// let listaParole = [];
+// let input;
 
-for (let i = 0; i < 5; i++)
-{
-    input = prompt("Inserire una parola");
-    if (input == input.toUpperCase())
-    {
-        alert("La parola inserita è tutta in maiuscolo, si prega di abbassare il tono");
-    }else
-    {        
-        listaParole.push(input);
-    }
-}
+// for (let i = 0; i < 5; i++)
+// {
+//     input = prompt("Inserire una parola");
+//     if (input == input.toUpperCase())
+//     {
+//         alert("La parola inserita è tutta in maiuscolo, si prega di abbassare il tono");
+//     }else
+//     {        
+//         listaParole.push(input);
+//     }
+// }
 
-console.log(listaParole);
+// console.log(listaParole);
+
+
+
+
+
+
+
+
+
+// ##### Snack N7 #####
+// Il software deve chiedere per 5 volte all'utente di inserire un numero.
+// Il programma stampa la somma di tutti i numeri inseriti.
+// Esegui questo programma in due versioni, con il for e con il while.
+
+// let somma = 0;
+// let j=0;
+
+// for (let i = 0; i < 5; i++)
+// {
+//     somma += parseInt(prompt("Inserisci un numero"));
+// }
+
+// while (j < 5)
+// {
+//     somma += parseInt(prompt("Inserisci un numero"));
+//     j++;
+// }
+
+// console.log(somma);
