@@ -30,13 +30,22 @@
 // Il software deve chiedere per 10 volte all'utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti. 
 
-
+let input = 0;
 let numero = 0;
 
 for (let i = 0; i < 10; i++)
-{            
-    numero += parseInt(prompt("Inserisci un valore numerico"));
-    // console.log(numero);
+{       
+    console.log(numero);
+    do
+    {
+        input = parseInt(prompt("Inserisci un valore numerico"));
+        console.log(typeof(input));
+        if (Number.isNaN(input))
+        {
+            alert("IL VALORE INSERITO NON E' UN NUMERO")
+        }
+    }while (Number.isNaN(input))    
+    numero += input;
 }
 
 console.log(numero);
