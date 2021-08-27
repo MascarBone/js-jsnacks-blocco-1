@@ -39,13 +39,42 @@ for (let i = 0; i < 10; i++)
     do
     {
         input = parseInt(prompt("Inserisci un valore numerico"));
-        console.log(typeof(input));
+        console.log(input);
         if (Number.isNaN(input))
         {
             alert("IL VALORE INSERITO NON E' UN NUMERO")
         }
-    }while (Number.isNaN(input))    
+    }while (Number.isNaN(input))  
+      
     numero += input;
 }
 
 console.log(numero);
+
+
+
+
+
+
+
+
+
+// ##### Snack N3 #####
+// In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, 
+// chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+// array contente la lista degli invitati
+// const listaInvitati = ["Antonio", "Percival", "Charlotte", "Eden", "Clark", "Stew"];
+
+// let invito = prompt("Inserisci il tuo nome per verificare l'ingresso");
+
+// for (let i = 0; i < listaInvitati.length; i++)
+// {
+//     if (listaInvitati[i] == invito)
+//     {
+//         console.log("Il tuo nome è stato verificato, benvenuto");
+//     }else
+//     {
+//         console.log("Mi dispiace, ma il tuo nome non è presente tra gli invitati");
+//     }
+// }
