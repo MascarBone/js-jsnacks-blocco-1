@@ -124,18 +124,50 @@
 // ##### Snack N5 #####
 // Calcola la somma e la media dei primi 10 numeri
 
-let somma = 0;
-let i = 1;
-while ( i <= 10)
+// let somma = 0;
+// let i = 1;
+// while ( i <= 10)
+// {
+//     somma += i;
+//     i++;
+// }
+
+// //Il contatore una volta usciti dal ciclo raggiungo il numero di cifre sommate + 1
+// //Facendo i-- il contatore rappresenta il numero preciso di cifre sommate
+
+// i--;
+
+// console.log("Totale :" + somma);
+// console.log("Media :" + (somma / i));
+
+
+
+
+
+
+
+
+
+// ##### Snack N6 #####
+
+// Crea un array vuoto.
+// Chiedi all'utente di inserire cinque parole.
+// Quando sono scritte tutte in maiuscolo stampa un alert,
+// altrimenti inseriscile nell'array.
+
+let listaParole = [];
+let input;
+
+for (let i = 0; i < 5; i++)
 {
-    somma += i;
-    i++;
+    input = prompt("Inserire una parola");
+    if (input == input.toUpperCase())
+    {
+        alert("La parola inserita è tutta in maiuscolo, si prega di abbassare il tono");
+    }else
+    {        
+        listaParole.push(input);
+    }
 }
 
-//Il contatore una volta usciti dal ciclo raggiungo il numero di cifre sommate + 1
-//Facendo i-- il contatore rappresenta il numero preciso di cifre sommate
-
-i--;
-
-console.log("Totale :" + somma);
-console.log("Media :" + (somma / i));
+console.log(listaParole);
