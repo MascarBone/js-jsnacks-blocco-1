@@ -30,26 +30,26 @@
 // Il software deve chiedere per 10 volte all'utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti. 
 
-let input = 0;
-let numero = 0;
+// let input = 0;
+// let numero = 0;
 
-for (let i = 0; i < 10; i++)
-{       
-    console.log(numero);
-    do
-    {
-        input = parseInt(prompt("Inserisci un valore numerico"));
-        console.log(input);
-        if (Number.isNaN(input))
-        {
-            alert("IL VALORE INSERITO NON E' UN NUMERO")
-        }
-    }while (Number.isNaN(input))  
-      
-    numero += input;
-}
+// for (let i = 0; i < 10; i++)
+// {       
+//     console.log(numero);
+//     do
+//     {
+//         input = parseInt(prompt("Inserisci un valore numerico"));
+//         console.log(input);
+//         if (isNaN(input))
+//         {
+//             alert("IL VALORE INSERITO NON E' UN NUMERO")
+//         }
+//     }while (isNaN(input))  
 
-console.log(numero);
+//     numero += input;
+// }
+
+// console.log(numero);
 
 
 
@@ -67,14 +67,20 @@ console.log(numero);
 // const listaInvitati = ["Antonio", "Percival", "Charlotte", "Eden", "Clark", "Stew"];
 
 // let invito = prompt("Inserisci il tuo nome per verificare l'ingresso");
+// let pass = false;
 
 // for (let i = 0; i < listaInvitati.length; i++)
 // {
 //     if (listaInvitati[i] == invito)
+//     {
+//         pass = true;
+//     }
+// }
+
+// if (pass)
 //     {
 //         console.log("Il tuo nome è stato verificato, benvenuto");
 //     }else
 //     {
 //         console.log("Mi dispiace, ma il tuo nome non è presente tra gli invitati");
 //     }
-// }
