@@ -98,17 +98,44 @@
 // Chiedi per 6 volte all'utente di inserire un numero,
 // se è dispari inseriscilo nell'array.
 
-let listaNumeri = [];
-let input = null;
+// let listaNumeri = [];
+// let input = null;
 
-for (let i = 0; i < 6; i++)
-{
-    input = prompt("Inserisci un numero");
+// for (let i = 0; i < 6; i++)
+// {
+//     input = prompt("Inserisci un numero");
     
-    if (input % 2 != 0)
-    {
-        listaNumeri.push(input);
-    }
+//     if (input % 2 != 0)
+//     {
+//         listaNumeri.push(input);
+//     }
+// }
+
+// console.log(listaNumeri);
+
+
+
+
+
+
+
+
+
+// ##### Snack N5 #####
+// Calcola la somma e la media dei primi 10 numeri
+
+let somma = 0;
+let i = 1;
+while ( i <= 10)
+{
+    somma += i;
+    i++;
 }
 
-console.log(listaNumeri);
+//Il contatore una volta usciti dal ciclo raggiungo il numero di cifre sommate + 1
+//Facendo i-- il contatore rappresenta il numero preciso di cifre sommate
+
+i--;
+
+console.log("Totale :" + somma);
+console.log("Media :" + (somma / i));
