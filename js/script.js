@@ -84,3 +84,31 @@
 //     {
 //         console.log("Mi dispiace, ma il tuo nome non è presente tra gli invitati");
 //     }
+
+
+
+
+
+
+
+
+
+// ##### Snack N4 #####
+// Crea un array vuoto.
+// Chiedi per 6 volte all'utente di inserire un numero,
+// se è dispari inseriscilo nell'array.
+
+let listaNumeri = [];
+let input = null;
+
+for (let i = 0; i < 6; i++)
+{
+    input = prompt("Inserisci un numero");
+    
+    if (input % 2 != 0)
+    {
+        listaNumeri.push(input);
+    }
+}
+
+console.log(listaNumeri);
